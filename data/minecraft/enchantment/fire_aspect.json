@@ -25,14 +25,15 @@
       }
     ]
   },
+  "exclusive_set": "#mpweapons.ench:exclusive/melee/beta",
   "max_cost": {
-    "base": 60,
+    "base": 55,
     "per_level_above_first": 20
   },
   "max_level": 3,
   "min_cost": {
-    "base": 10,
-    "per_level_above_first": 11
+    "base": 15,
+    "per_level_above_first": 12
   },
   "slots": [
     "mainhand"

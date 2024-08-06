@@ -31,8 +31,8 @@
           "max_amplifier": 3.0,
           "max_duration": {
             "type": "minecraft:linear",
-            "base": 1.5,
-            "per_level_above_first": 0.5
+            "base": 2.5,
+            "per_level_above_first": 2.5
           },
           "min_amplifier": 3.0,
           "min_duration": 1.5,
@@ -62,17 +62,17 @@
   },
   "exclusive_set": "#mpweapons.ench:exclusive/melee/beta",
   "max_cost": {
-    "base": 25,
-    "per_level_above_first": 8
+    "base": 50,
+    "per_level_above_first": 20
   },
-  "max_level": 5,
+  "max_level": 2,
   "min_cost": {
-    "base": 5,
-    "per_level_above_first": 8
+    "base": 15,
+    "per_level_above_first": 20
   },
   "slots": [
     "mainhand"
   ],
   "supported_items": "#minecraft:enchantable/weapon",
-  "weight": 5
+  "weight": 4
 }

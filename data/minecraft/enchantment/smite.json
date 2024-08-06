@@ -10,8 +10,8 @@
           "type": "minecraft:add",
           "value": {
             "type": "minecraft:linear",
-            "base": 2.0,
-            "per_level_above_first": 1.0
+            "base": 2.5,
+            "per_level_above_first": 2.5
           }
         },
         "requirements": {
@@ -26,13 +26,13 @@
   },
   "exclusive_set": "#mpweapons.ench:exclusive/melee/beta",
   "max_cost": {
-    "base": 25,
-    "per_level_above_first": 8
+    "base": 50,
+    "per_level_above_first": 20
   },
-  "max_level": 5,
+  "max_level": 2,
   "min_cost": {
-    "base": 5,
-    "per_level_above_first": 8
+    "base": 15,
+    "per_level_above_first": 20
   },
   "slots": [
     "mainhand"

@@ -13,7 +13,6 @@ false
     * sharpness 3
     * reach 3
     * weightless 3
-    * sweeping edge 3
 
 - Group 2
     * smite 4
@@ -21,4 +20,5 @@ false
     * knockback 3
     * unbreaking 3
     * looting 2
+    * sweeping edge 3
     * fire aspect 3

@@ -25,19 +25,19 @@
       }
     ]
   },
-  "exclusive_set": "#mpweapons.ench:exclusive/melee/alpha",
+  "exclusive_set": "#mpweapons.ench:exclusive/melee/beta",
   "max_cost": {
-    "base": 20,
-    "per_level_above_first": 9
+    "base": 55,
+    "per_level_above_first": 20
   },
   "max_level": 3,
   "min_cost": {
     "base": 5,
-    "per_level_above_first": 9
+    "per_level_above_first": 13
   },
   "slots": [
     "mainhand"
   ],
   "supported_items": "#minecraft:enchantable/sword",
-  "weight": 4
+  "weight": 5
 }
