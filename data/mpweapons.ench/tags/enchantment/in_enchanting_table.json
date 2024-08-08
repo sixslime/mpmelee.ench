@@ -1,6 +1,5 @@
 {
     "values": [
-        "mpweapons.ench:zeal",
-        "mpweapons.ench:reach"
+        "#mpweapons.ench:all"
     ]
 }

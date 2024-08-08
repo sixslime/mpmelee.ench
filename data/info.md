@@ -9,16 +9,53 @@ false
 
 # TODO
 
+KEY - xxxxx
+- sword
+- axe
+- hoe
+- pickaxe
+- shovel
+
+- Total
+    * X shatter (crit damage) xxxxx
+    * X sharpness xxxxx
+    * X knockback xxxxx
+    * X breach (armor pen) xxxxx
+    * X anti-athropods xxxxx
+    * X anti-undead xxxxx
+    * X anti-aquatic xxxxx
+    * X crippling (slow/jump reduce) xxxxx
+    * X sweeping edge x----
+    * X fire aspect xxxxx
+    * X fervor (speed on hit) xxxxx
+    * X looting --x--
+    * X streak (on hit stacking damage, lost when damaged) xxxxx
+    * X fury (damage scaling with source's missing health) -x---
+    * X echo (re-damage after a short delay) x---x
+    * X switch (does more damage to new target [mf passive]) --x-x
+    * X Soul Harvest (heals on kill) ---x-
+
 - Group 1
-    * sharpness 3
-    * reach 3
-    * weightless 3
+    * Sharpness
 
 - Group 2
-    * smite 4
-    * bane of athropods 4
-    * knockback 3
-    * unbreaking 3
-    * looting 2
-    * sweeping edge 3
-    * fire aspect 3
+    * Bane of Athropods
+    * Smite
+    * Sea Bane
+    * Fire Aspect
+    * Breach
+    * Shatter 
+
+- Group 3
+    * Crippling
+    * Fleeting
+    * Fury
+    * Sweeping Edge
+    * Switch
+    * Knockback
+    * Looting
+
+- Group 4
+    * Echo
+    * Soul Harvest
+    * Streak
