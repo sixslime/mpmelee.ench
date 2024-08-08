@@ -35,10 +35,10 @@ KEY - xxxxx
     * X switch (does more damage to new target [mf passive]) --x-x
     * X Soul Harvest (heals on kill) ---x-
 
-- Group 1
+- Group 1 (V)
     * Sharpness
 
-- Group 2
+- Group 2 (IV)
     * Bane of Athropods
     * Smite
     * Sea Bane
@@ -46,7 +46,7 @@ KEY - xxxxx
     * Breach
     * Shatter 
 
-- Group 3
+- Group 3 (III)
     * Crippling
     * Fleeting
     * Fury
@@ -55,7 +55,7 @@ KEY - xxxxx
     * Knockback
     * Looting
 
-- Group 4
+- Group 4 (I)
     * Echo
     * Soul Harvest
     * Streak
