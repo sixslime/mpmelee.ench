@@ -39,12 +39,13 @@ KEY - xxxxx
     * Sharpness
 
 - Group 2 (IV)
-    * Bane of Athropods
+    * Butcher
+    * Exile
     * Smite
     * Sea Bane
     * Fire Aspect
     * Breach
-    * Shatter 
+    * Shatter
 
 - Group 3 (III)
     * Crippling

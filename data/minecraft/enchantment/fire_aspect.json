@@ -1,24 +1,25 @@
 {
   "anvil_cost": 2,
   "description": {
-    "translate": "enchantment.minecraft.smite"
+    "translate": "enchantment.minecraft.fire_aspect"
   },
   "effects": {
-    "minecraft:damage": [
+    "minecraft:post_attack": [
       {
+        "affected": "victim",
         "effect": {
-          "type": "minecraft:add",
-          "value": {
+          "type": "minecraft:ignite",
+          "duration": {
             "type": "minecraft:linear",
-            "base": 2.0,
-            "per_level_above_first": 1.0
+            "base": 3.0,
+            "per_level_above_first": 2.0
           }
         },
+        "enchanted": "attacker",
         "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
+          "condition": "minecraft:damage_source_properties",
           "predicate": {
-            "type": "#minecraft:sensitive_to_smite"
+            "is_direct": true
           }
         }
       }
@@ -38,5 +39,5 @@
     "mainhand"
   ],
   "supported_items": "#minecraft:enchantable/weapon",
-  "weight": 6
+  "weight": 5
 }

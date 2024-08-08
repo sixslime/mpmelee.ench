@@ -1,7 +1,8 @@
 {
   "anvil_cost": 2,
   "description": {
-    "translate": "enchantment.minecraft.smite"
+    "translate": "enchantment.mpweapons.ench.exile",
+    "fallback": "Exile"
   },
   "effects": {
     "minecraft:damage": [
@@ -18,7 +19,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "type": "#minecraft:sensitive_to_smite"
+            "type": "#mpweapons.ench:sensitive_to_exile"
           }
         }
       }
