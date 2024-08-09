@@ -5,7 +5,30 @@
     "fallback": "Crippling"
   },
   "effects": {
-    
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "mpweapons.ench:_/enchantment/crippling/attacker"
+        },
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "is_direct": true
+          }
+        }
+      },
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "mpweapons.ench:_/enchantment/crippling/victim"
+        }
+      }
+    ]
   },
   "exclusive_set": "#mpweapons.ench:exclusive/melee/gamma",
   "max_cost": {
