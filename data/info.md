@@ -17,23 +17,24 @@ KEY - xxxxx
 - shovel
 
 - Total
-    * X shatter (crit damage) xxxxx
-    * X sharpness xxxxx
-    * X knockback xxxxx
-    * X breach (armor pen) xxxxx
-    * X anti-athropods xxxxx
-    * X anti-undead xxxxx
-    * X anti-aquatic xxxxx
-    * X crippling (slow/jump reduce) xxxxx
-    * X sweeping edge x----
-    * X fire aspect xxxxx
-    * X fervor (speed on hit) xxxxx
-    * X looting --x--
-    * X streak (on hit stacking damage, lost when damaged) xxxxx
-    * X fury (damage scaling with source's missing health) -x---
-    * X echo (re-damage after a short delay) x---x
-    * X switch (does more damage to new target [mf passive]) --x-x
-    * X Soul Harvest (heals on kill) ---x-
+    * O shatter (crit damage) xxxxx
+    * O sharpness xxxxx
+    * O knockback xxxxx
+    * O breach (armor pen) xxxxx
+    * O anti-athropods xxxxx
+    * O anti-undead xxxxx
+    * O anti-aquatic xxxxx
+    * O crippling (slow/jump reduce) xxxxx
+    * O fire aspect xxxxx
+    * O Fleeting (speed on hit) xxxxx
+    * O looting xxxxx
+    * O sweeping edge x----
+    * O switch (does more damage to new target [mf passive]) -xxxx 
+    * O xx--- fervor (stacking damage/attack speed increase on hit for a short time, lost on damaged)
+    * O -x--x echo (re-damage after a short delay)
+    * O --xx- Soul Harvest (heals on kill)
+    * O ---xx overcharge ('charge' increases scaling with attack speed while holding, consume 'charge' on hit to deal increased damage based on 'charge' consumed)
+    * O x-x-- Venomous (on hit 1-2 tick poison, reduced damage)
 
 - Group 1 (V)
     * Sharpness
@@ -43,20 +44,21 @@ KEY - xxxxx
     * Exile
     * Smite
     * Sea Bane
-    * Fire Aspect
+    * Ignite
     * Breach
     * Shatter
 
 - Group 3 (III)
     * Crippling
     * Fleeting
-    * Fury
     * Sweeping Edge
-    * Switch
+    * Target Switch
     * Knockback
     * Looting
 
-- Group 4 (I)
+- Group 4 (II)
     * Echo
     * Soul Harvest
-    * Streak
+    * Fervor
+    * Overcharge
+    * Venomous
