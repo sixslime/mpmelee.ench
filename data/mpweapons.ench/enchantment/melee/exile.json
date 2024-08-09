@@ -1,17 +1,25 @@
 {
   "anvil_cost": 2,
   "description": {
-    "translate": "enchantment.minecraft.breach"
+    "translate": "enchantment.mpweapons.ench.exile",
+    "fallback": "Exile"
   },
   "effects": {
-    "minecraft:armor_effectiveness": [
+    "minecraft:damage": [
       {
         "effect": {
           "type": "minecraft:add",
           "value": {
             "type": "minecraft:linear",
-            "base": -0.16,
-            "per_level_above_first": -0.08
+            "base": 2.0,
+            "per_level_above_first": 1.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "#mpweapons.ench:sensitive_to_exile"
           }
         }
       }

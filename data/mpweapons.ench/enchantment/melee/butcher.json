@@ -1,8 +1,8 @@
 {
   "anvil_cost": 2,
   "description": {
-    "translate": "enchantment.mpweapons.ench.sea_bane",
-    "fallback": "Sea Bane"
+    "translate": "enchantment.mpweapons.ench.butcher",
+    "fallback": "Butcher"
   },
   "effects": {
     "minecraft:damage": [
@@ -19,7 +19,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "type": "#mpweapons.ench:sensitive_to_seabane"
+            "type": "#mpweapons.ench:sensitive_to_butcher"
           }
         }
       }
@@ -39,5 +39,5 @@
     "mainhand"
   ],
   "supported_items": "#minecraft:enchantable/weapon",
-  "weight": 5
+  "weight": 6
 }

@@ -1,9 +1,12 @@
 {
     "values": [
-        "mpweapons.ench:butcher",
-        "mpweapons.ench:exile",
-        "mpweapons.ench:ignite",
-        "mpweapons.ench:sea_bane",
-        "mpweapons.ench:shatter"
+        "mpweapons.ench:melee/butcher",
+        "mpweapons.ench:melee/exile",
+        "mpweapons.ench:melee/ignite",
+        "mpweapons.ench:melee/sea_bane",
+        "mpweapons.ench:melee/shatter",
+        "mpweapons.ench:melee/target_switch",
+        "mpweapons.ench:melee/fleeting",
+        "mpweapons.ench:melee/crippling"
     ]
 }
