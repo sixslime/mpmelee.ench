@@ -1,0 +1,25 @@
+{
+  "anvil_cost": 10,
+  "description": {
+    "translate": "enchantment.mpweapons.ench.overcharge",
+    "fallback": "Overcharge"
+  },
+  "effects": {
+    
+  },
+  "exclusive_set": "#mpweapons.ench:exclusive/melee/gamma",
+  "max_cost": {
+    "base": 55,
+    "per_level_above_first": 20
+  },
+  "max_level": 2,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 18
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#mpweapons.ench:enchantable/overcharge",
+  "weight": 2
+}
