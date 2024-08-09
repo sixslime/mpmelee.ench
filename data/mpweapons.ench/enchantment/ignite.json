@@ -1,25 +1,26 @@
 {
   "anvil_cost": 2,
   "description": {
-    "translate": "enchantment.mpweapons.ench.butcher",
-    "fallback": "Butcher"
+    "translate": "enchantment.mpweapons.ench.ignite",
+    "fallback": "Ignite"
   },
   "effects": {
-    "minecraft:damage": [
+    "minecraft:post_attack": [
       {
+        "affected": "victim",
         "effect": {
-          "type": "minecraft:add",
-          "value": {
+          "type": "minecraft:ignite",
+          "duration": {
             "type": "minecraft:linear",
-            "base": 2.0,
-            "per_level_above_first": 1.0
+            "base": 3.0,
+            "per_level_above_first": 2.0
           }
         },
+        "enchanted": "attacker",
         "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
+          "condition": "minecraft:damage_source_properties",
           "predicate": {
-            "type": "#mpweapons.ench:sensitive_to_butcher"
+            "is_direct": true
           }
         }
       }

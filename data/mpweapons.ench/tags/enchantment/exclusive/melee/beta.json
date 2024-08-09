@@ -1,5 +1,11 @@
 {
     "values": [
-        "minecraft:sharpness"
+        "minecraft:breach",
+        "minecraft:smite",
+        "mpweapons.ench:butcher",
+        "mpweapons.ench:exile",
+        "mpweapons.ench:ignite",
+        "mpweapons.ench:sea_bane",
+        "mpweapons.ench:shatter"
     ]
 }
