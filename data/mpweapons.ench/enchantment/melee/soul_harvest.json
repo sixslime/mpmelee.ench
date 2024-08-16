@@ -7,7 +7,7 @@
   "effects": {
     
   },
-  "exclusive_set": "#mpweapons.ench:exclusive/melee/gamma",
+  "exclusive_set": "#mpweapons.ench:exclusive/melee/delta",
   "max_cost": {
     "base": 55,
     "per_level_above_first": 20

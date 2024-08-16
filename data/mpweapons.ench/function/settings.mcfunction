@@ -10,7 +10,7 @@ data modify storage mpweapons.ench:settings PERSIST set value false
 #-------------------
 # - 
 #-------------------
-data modify storage mpweapons.ench:settings enchantments.crippling.base set value {amount: -0.3, duration: 40}
+data modify storage mpweapons.ench:settings enchantment.crippling.base set value {amount: -0.3, duration: 40}
 #>-------------------
 
 #>-------------------
@@ -20,5 +20,5 @@ data modify storage mpweapons.ench:settings enchantments.crippling.base set valu
 #-------------------
 # - 
 #-------------------
-data modify storage mpweapons.ench:settings enchantments.crippling.per_additional_level set value {amount: -0.10, duration: 10}
+data modify storage mpweapons.ench:settings enchantment.crippling.per_additional_level set value {amount: -0.15, duration: 5}
 #>-------------------

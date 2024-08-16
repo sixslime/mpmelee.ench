@@ -3,4 +3,8 @@
 # @affect:start : "cripple"
 #--------------------
 
-say start
+say cripple start
+#>---- D E B U G --------
+data modify storage loggr:in log.message set from storage affect:data current.data
+function loggr:api/log
+#>--------------

@@ -1,9 +1,10 @@
 {
     "values": [
-        "mpweapons.ench:melee/venomous",
-        "mpweapons.ench:melee/overcharge",
-        "mpweapons.ench:melee/soul_harvest",
-        "mpweapons.ench:melee/fervor",
-        "mpweapons.ench:melee/echo"
+        "mpweapons.ench:melee/crippling",
+        "mpweapons.ench:melee/fleeting",
+        "mpweapons.ench:melee/target_switch",
+        "minecraft:knockback",
+        "minecraft:looting",
+        "minecraft:sweeping_edge"
     ]
 }
