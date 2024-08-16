@@ -21,6 +21,9 @@ scoreboard objectives add -mpweapons.ench dummy
 scoreboard objectives add --mpweapons.ench dummy
 #scoreboard objectives add mpweapons.ench-scoreboard dummy
 
+# affect registry
+function mpweapons.ench:_/affect/registry
+
 # tick
 schedule clear mpweapons.ench:_/tick
 function mpweapons.ench:_/tick
