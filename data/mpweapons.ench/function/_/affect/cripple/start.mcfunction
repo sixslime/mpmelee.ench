@@ -3,8 +3,5 @@
 # @affect:start : "cripple"
 #--------------------
 
-say cripple start
-#>---- D E B U G --------
-data modify storage loggr:in log.message set from storage affect:data current.data
-function loggr:api/log
-#>--------------
+$attribute @s minecraft:generic.movement_speed modifier add mpweapons.ench:crippled $(amount) add_multiplied_total
+$attribute @s minecraft:generic.jump_strength modifier add mpweapons.ench:crippled $(amount) add_multiplied_total
