@@ -1,7 +1,7 @@
 #> mpweapons.ench:_/affect/cripple/start
 #--------------------
-# @affect:start : "cripple"
+# @affect:start : "mpweapons.ench:cripple"
 #--------------------
 
-$attribute @s minecraft:generic.movement_speed modifier add mpweapons.ench:crippled $(amount) add_multiplied_total
-$attribute @s minecraft:generic.jump_strength modifier add mpweapons.ench:crippled $(amount) add_multiplied_total
+data modify storage mpweapons.ench:var cripple.attributes set from storage affect:data this[-1].data.attributes
+

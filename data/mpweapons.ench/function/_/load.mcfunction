@@ -22,7 +22,7 @@ scoreboard objectives add --mpweapons.ench dummy
 #scoreboard objectives add mpweapons.ench-scoreboard dummy
 
 # registries
-function mpweapons.ench:_/affect/registry
+function mpweapons.ench:_/affect/define
 function mpweapons.ench:_/purec/define
 
 # tick
