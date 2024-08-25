@@ -21,9 +21,11 @@ execute store result score *calc.base -mpweapons.ench run data get storage mpwea
 execute store result score *calc.per -mpweapons.ench run data get storage mpweapons.ench:var calc.input.duration.per_additional_level
 scoreboard players operation *calc.per -mpweapons.ench *= *calc.level_add -mpweapons.ench
 scoreboard players operation *calc.base -mpweapons.ench += *calc.per -mpweapons.ench
-execute store result storage purec:data this[-1].result.duration int 1 run scoreboard players get *calc.base -mpweapons.ench
+execute store result storage mpweapons.ench:var calc.result.duration int 1 run scoreboard players get *calc.base -mpweapons.ench
 
 execute if data storage mpweapons.ench:var calc.input.attributes[0] run function mpweapons.ench:_/purec/pfunction/calc_attribute_effect/each_attribute
+
+data modify storage purec:data this[-1].result set from storage mpweapons.ench:var calc.result
 
 scoreboard players reset *calc.level_add -mpweapons.ench
 scoreboard players reset *calc.base -mpweapons.ench

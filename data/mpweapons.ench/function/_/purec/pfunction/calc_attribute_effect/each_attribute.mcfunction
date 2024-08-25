@@ -13,7 +13,7 @@ scoreboard players operation *calc.base -mpweapons.ench += *calc.per -mpweapons.
 data remove storage mpweapons.ench:var calc.this_attribute.amount
 execute store result storage mpweapons.ench:var calc.this_attribute.amount int 1 run scoreboard players get *calc.base -mpweapons.ench
 
-data modify storage purec:data this[-1].result.attributes append from storage mpweapons.ench:var calc.this_attribute
+data modify storage mpweapons.ench:var calc.result.attributes append from storage mpweapons.ench:var calc.this_attribute
 
 data remove storage mpweapons.ench:var calc.input.attributes[-1]
 execute if data storage mpweapons.ench:var calc.input.attributes[0] run function mpweapons.ench:_/purec/pfunction/calc_attribute_effect/each_attribute
