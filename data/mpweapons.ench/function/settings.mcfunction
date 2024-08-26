@@ -29,11 +29,22 @@ data modify storage mpweapons.ench:settings enchantment.crippling.attributes app
 #>-------------------
 
 #>-------------------
-#> cache.enchantment_levels.up_to : int
+#> enchantment.fleeting.duration : {amount: float, duration: int}
 #-------------------
 # ~ 
 #-------------------
 # - 
 #-------------------
-data modify storage mpweapons.ench:settings cache.enchantment_levels.up_to set value 10
+data modify storage mpweapons.ench:settings enchantment.fleeting.duration set value {base:25, per_additional_level:10}
+#>-------------------
+
+#>-------------------
+#> enchantment.fleeting.attributes : {amount: float, duration: int}
+#-------------------
+# ~ 
+#-------------------
+# - 
+#-------------------
+data modify storage mpweapons.ench:settings enchantment.fleeting.attributes set value []
+data modify storage mpweapons.ench:settings enchantment.fleeting.attributes append value {attribute:"minecraft:generic.movement_speed", amount:{base:0.25,per_additional_level:0.1}, operation:"add_multiplied_total"}
 #>-------------------
