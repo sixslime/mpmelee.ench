@@ -23,7 +23,8 @@ data modify storage mpweapons.ench:settings enchantment.crippling.duration set v
 # - 
 #-------------------
 data modify storage mpweapons.ench:settings enchantment.crippling.attributes set value []
-data modify storage mpweapons.ench:settings enchantment.crippling.attributes append value {attribute:"minecraft:generic.movement_speed", amount:{base:-0.3,per_additional_level:-0.15}, operation:"add_multiplied_total"}
+data modify storage mpweapons.ench:settings enchantment.crippling.attributes append value {attribute:"minecraft:generic.movement_speed", amount:{base:-0.4,per_additional_level:-0.15}, operation:"add_multiplied_total"}
+data modify storage mpweapons.ench:settings enchantment.crippling.attributes append value {attribute:"minecraft:generic.jump_strength", amount:{base:-0.1,per_additional_level:-0.15}, operation:"add_multiplied_total"}
 #>-------------------
 
 #>-------------------
