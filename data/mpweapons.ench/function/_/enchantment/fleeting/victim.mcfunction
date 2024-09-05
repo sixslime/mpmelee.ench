@@ -4,5 +4,3 @@
 #--------------------
 
 # do nothing
-
-say victim

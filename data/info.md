@@ -35,7 +35,7 @@ KEY - xxxxx
     * O switch (does more damage to new target [mf passive]) -xxxx 
     * O xx--- fervor (stacking damage/attack speed increase on hit for a short time, lost on damaged)
     * O -x--x echo (re-damage after a short delay)
-    * O --xx- Soul Harvest (heals on kill)
+    * O --xx- Soul Harvest (heals based on damage dealt and on kill)
     * O ---xx overcharge ('charge' increases scaling with attack speed while holding, consume 'charge' on hit to deal increased damage based on 'charge' consumed)
     * O x-x-- Venomous (on hit 1-2 tick poison, reduced damage)
 
