@@ -26,12 +26,12 @@
   },
   "exclusive_set": "#mpweapons.ench:exclusive/melee/beta",
   "max_cost": {
-    "base": 20,
-    "per_level_above_first": 11
+    "base": 12,
+    "per_level_above_first": 10
   },
   "max_level": 4,
   "min_cost": {
-    "base": 5,
+    "base": 6,
     "per_level_above_first": 11
   },
   "slots": [

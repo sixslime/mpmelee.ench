@@ -27,17 +27,17 @@
   },
   "exclusive_set": "#mpweapons.ench:exclusive/melee/beta",
   "max_cost": {
-    "base": 20,
+    "base": 13,
     "per_level_above_first": 11
   },
   "max_level": 4,
   "min_cost": {
-    "base": 5,
-    "per_level_above_first": 11
+    "base": 6,
+    "per_level_above_first": 10
   },
   "slots": [
     "mainhand"
   ],
   "supported_items": "#minecraft:enchantable/weapon",
-  "weight": 6
+  "weight": 4
 }

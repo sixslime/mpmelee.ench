@@ -19,13 +19,13 @@
   },
   "exclusive_set": "#mpweapons.ench:exclusive/melee/gamma",
   "max_cost": {
-    "base": 50,
-    "per_level_above_first": 9
+    "base": 23,
+    "per_level_above_first": 11
   },
   "max_level": 3,
   "min_cost": {
-    "base": 10,
-    "per_level_above_first": 15
+    "base": 13,
+    "per_level_above_first": 12
   },
   "slots": [
     "mainhand"

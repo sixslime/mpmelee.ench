@@ -32,17 +32,17 @@
   },
   "exclusive_set": "#mpweapons.ench:exclusive/melee/gamma",
   "max_cost": {
-    "base": 50,
+    "base": 21,
     "per_level_above_first": 9
   },
   "max_level": 3,
   "min_cost": {
-    "base": 10,
-    "per_level_above_first": 15
+    "base": 11,
+    "per_level_above_first": 14
   },
   "slots": [
     "mainhand"
   ],
   "supported_items": "#minecraft:enchantable/weapon",
-  "weight": 4
+  "weight": 5
 }

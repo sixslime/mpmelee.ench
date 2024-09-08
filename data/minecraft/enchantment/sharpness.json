@@ -19,13 +19,13 @@
     },
     "exclusive_set": "#mpweapons.ench:exclusive/melee/alpha",
     "max_cost": {
-      "base": 21,
-      "per_level_above_first": 11
+      "base": 11,
+      "per_level_above_first": 9
     },
     "max_level": 5,
     "min_cost": {
       "base": 1,
-      "per_level_above_first": 11
+      "per_level_above_first": 10
     },
     "slots": [
       "mainhand"
