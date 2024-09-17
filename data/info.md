@@ -12,6 +12,7 @@ false
 
 # TODO
 
+# Melee
 KEY - xxxxx
 - sword
 - axe
@@ -65,3 +66,29 @@ KEY - xxxxx
     * Fervor
     * Overcharge
     * Venomous
+
+# Ranged
+Key:
+B - Bow
+C - Crossbow
+
+## Alpha (V)
+    * Velocity - CB
+    * Quick Charge - C
+    * Accuracy - B
+
+## Beta (IV)
+    * Punch - BC
+    * Infiltrate - BC
+    * Peirce - BC
+    * Mark - BC
+
+## Gamma (III)
+    * Riccochet - BC
+    * Multishot - BC
+    * Phasing - BC
+
+
+## Delta (I)
+    * Returning - B
+    * Repeating - C

@@ -20,6 +20,6 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#mpweapons.ench:enchantable/soul_harvest",
+  "supported_items": "#mpweapons.ench:enchantable/melee/soul_harvest",
   "weight": 2
 }

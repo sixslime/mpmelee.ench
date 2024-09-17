@@ -20,6 +20,6 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#mpweapons.ench:enchantable/fervor",
+  "supported_items": "#mpweapons.ench:enchantable/melee/fervor",
   "weight": 2
 }

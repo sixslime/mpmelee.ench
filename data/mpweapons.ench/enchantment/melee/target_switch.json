@@ -20,6 +20,6 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#mpweapons.ench:enchantable/target_switch",
+  "supported_items": "#mpweapons.ench:enchantable/melee/target_switch",
   "weight": 4
 }

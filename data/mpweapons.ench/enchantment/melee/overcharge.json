@@ -20,6 +20,6 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#mpweapons.ench:enchantable/overcharge",
+  "supported_items": "#mpweapons.ench:enchantable/melee/overcharge",
   "weight": 2
 }

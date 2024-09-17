@@ -1,13 +1,13 @@
 {
   "anvil_cost": 10,
   "description": {
-    "translate": "enchantment.mpweapons.ench.venomous",
-    "fallback": "Venomous"
+    "translate": "enchantment.mpweapons.ench.velocity",
+    "fallback": "Velocity"
   },
   "effects": {
     
   },
-  "exclusive_set": "#mpweapons.ench:exclusive/melee/delta",
+  "exclusive_set": "#mpweapons.ench:exclusive/ranged/alpha",
   "max_cost": {
     "base": 55,
     "per_level_above_first": 20
@@ -20,6 +20,6 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#mpweapons.ench:enchantable/melee/venomous",
+  "supported_items": "minecraft:bow",
   "weight": 2
 }

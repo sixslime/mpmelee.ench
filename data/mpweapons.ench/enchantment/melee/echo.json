@@ -20,6 +20,6 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#mpweapons.ench:enchantable/echo",
+  "supported_items": "#mpweapons.ench:enchantable/melee/echo",
   "weight": 2
 }
