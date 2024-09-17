@@ -6,6 +6,8 @@
         "minecraft:phantom",
         "minecraft:warden",
         "minecraft:shulker",
-        "minecraft:allay"
+        "minecraft:allay",
+        "minecraft:creeper",
+        "minecraft:blaze"
     ]
 }
