@@ -23,8 +23,8 @@ data modify storage mpweapons.ench:settings enchantment.crippling.duration set v
 # - 
 #-------------------
 data modify storage mpweapons.ench:settings enchantment.crippling.attributes set value []
-data modify storage mpweapons.ench:settings enchantment.crippling.attributes append value {attribute:"minecraft:generic.movement_speed", amount:{base:-0.30,per_additional_level:-0.15}, operation:"add_multiplied_total"}
-data modify storage mpweapons.ench:settings enchantment.crippling.attributes append value {attribute:"minecraft:generic.jump_strength", amount:{base:-0.1,per_additional_level:-0.15}, operation:"add_multiplied_total"}
+data modify storage mpweapons.ench:settings enchantment.crippling.attributes append value {attribute:"minecraft:movement_speed", amount:{base:-0.30,per_additional_level:-0.15}, operation:"add_multiplied_total"}
+data modify storage mpweapons.ench:settings enchantment.crippling.attributes append value {attribute:"minecraft:jump_strength", amount:{base:-0.1,per_additional_level:-0.15}, operation:"add_multiplied_total"}
 data modify storage mpweapons.ench:settings enchantment.crippling.attributes append value {attribute:"minecraft:player.entity_interaction_range", amount:{base:-0.2,per_additional_level:-0.1}, operation:"add_multiplied_total"}
 #>-------------------
 
@@ -46,5 +46,5 @@ data modify storage mpweapons.ench:settings enchantment.fleeting.duration set va
 # - 
 #-------------------
 data modify storage mpweapons.ench:settings enchantment.fleeting.attributes set value []
-data modify storage mpweapons.ench:settings enchantment.fleeting.attributes append value {attribute:"minecraft:generic.movement_speed", amount:{base:0.25,per_additional_level:0.1}, operation:"add_multiplied_total"}
+data modify storage mpweapons.ench:settings enchantment.fleeting.attributes append value {attribute:"minecraft:movement_speed", amount:{base:0.25,per_additional_level:0.1}, operation:"add_multiplied_total"}
 #>-------------------
