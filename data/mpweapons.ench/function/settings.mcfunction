@@ -3,7 +3,6 @@
 #declare storage mpweapons.ench:settings
 data modify storage mpweapons.ench:settings PERSIST set value false
 
-## SNAPSHOT - perhaps give weapons custom enchantability via xtem with the new 'enchantable' item component.
 
 #>-------------------
 #> enchantment.crippling.duration : {amount: float, duration: int}
