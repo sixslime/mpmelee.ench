@@ -1,6 +1,6 @@
-#> mpweapons.ench:_/affect/cripple/protocol
+#> mpweapons.ench:_/affect/fleetfoot/protocol
 #--------------------
-# @affect:duplicate_protocol : "cripple"
+# @affect:duplicate_protocol : "fleetfoot"
 #--------------------
 
-# cripple just overwrites.
+# fleetfoot just overwrites.

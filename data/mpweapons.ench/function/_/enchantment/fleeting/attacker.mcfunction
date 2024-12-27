@@ -1,6 +1,6 @@
-#> mpweapons.ench:_/enchantment/crippling/attacker
+#> mpweapons.ench:_/enchantment/fleeting/attacker
 #--------------------
-# @enchantment : crippling
+# @enchantment : fleeting
 #--------------------
 
 function mpweapons.ench:_/util/get_weapon
