@@ -1,17 +1,17 @@
 {
     "values": [
-        "mpmelee.ench:melee/butcher",
-        "mpmelee.ench:melee/exile",
-        "mpmelee.ench:melee/ignite",
-        "mpmelee.ench:melee/sea_bane",
-        "mpmelee.ench:melee/shatter",
-        "mpmelee.ench:melee/target_switch",
-        "mpmelee.ench:melee/fleeting",
-        "mpmelee.ench:melee/crippling",
-        "mpmelee.ench:melee/venomous",
-        "mpmelee.ench:melee/overcharge",
-        "mpmelee.ench:melee/soul_harvest",
-        "mpmelee.ench:melee/fervor",
-        "mpmelee.ench:melee/echo"
+        "mpmelee.ench:butcher",
+        "mpmelee.ench:exile",
+        "mpmelee.ench:ignite",
+        "mpmelee.ench:sea_bane",
+        "mpmelee.ench:shatter",
+        "mpmelee.ench:target_switch",
+        "mpmelee.ench:fleeting",
+        "mpmelee.ench:crippling",
+        "mpmelee.ench:venomous",
+        "mpmelee.ench:overcharge",
+        "mpmelee.ench:soul_harvest",
+        "mpmelee.ench:fervor",
+        "mpmelee.ench:echo"
     ]
 }

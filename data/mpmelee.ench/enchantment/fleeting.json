@@ -30,7 +30,7 @@
       }
     ]
   },
-  "exclusive_set": "#mpmelee.ench:exclusive/melee/gamma",
+  "exclusive_set": "#mpmelee.ench:exclusive/gamma",
   "max_cost": {
     "base": 26,
     "per_level_above_first": 11

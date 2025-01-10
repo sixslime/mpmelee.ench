@@ -1,13 +1,13 @@
 {
   "anvil_cost": 10,
   "description": {
-    "translate": "enchantment.mpmelee.ench.echo",
-    "fallback": "Echo"
+    "translate": "enchantment.mpmelee.ench.venomous",
+    "fallback": "Venomous"
   },
   "effects": {
     
   },
-  "exclusive_set": "#mpmelee.ench:exclusive/melee/delta",
+  "exclusive_set": "#mpmelee.ench:exclusive/delta",
   "max_cost": {
     "base": 55,
     "per_level_above_first": 20
@@ -20,6 +20,6 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#mpmelee.ench:enchantable/echo",
+  "supported_items": "#mpmelee.ench:enchantable/venomous",
   "weight": 2
 }

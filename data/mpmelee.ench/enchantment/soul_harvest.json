@@ -1,13 +1,13 @@
 {
   "anvil_cost": 10,
   "description": {
-    "translate": "enchantment.mpmelee.ench.overcharge",
-    "fallback": "Overcharge"
+    "translate": "enchantment.mpmelee.ench.soul_harvest",
+    "fallback": "Soul Harvest"
   },
   "effects": {
     
   },
-  "exclusive_set": "#mpmelee.ench:exclusive/melee/delta",
+  "exclusive_set": "#mpmelee.ench:exclusive/delta",
   "max_cost": {
     "base": 55,
     "per_level_above_first": 20
@@ -20,6 +20,6 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#mpmelee.ench:enchantable/overcharge",
+  "supported_items": "#mpmelee.ench:enchantable/soul_harvest",
   "weight": 2
 }

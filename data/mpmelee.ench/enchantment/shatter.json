@@ -32,7 +32,7 @@
       }
     ]
   },
-  "exclusive_set": "#mpmelee.ench:exclusive/melee/beta",
+  "exclusive_set": "#mpmelee.ench:exclusive/beta",
   "max_cost": {
     "base": 14,
     "per_level_above_first": 10

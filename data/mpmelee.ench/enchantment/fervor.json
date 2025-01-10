@@ -7,7 +7,7 @@
   "effects": {
     
   },
-  "exclusive_set": "#mpmelee.ench:exclusive/melee/delta",
+  "exclusive_set": "#mpmelee.ench:exclusive/delta",
   "max_cost": {
     "base": 55,
     "per_level_above_first": 20

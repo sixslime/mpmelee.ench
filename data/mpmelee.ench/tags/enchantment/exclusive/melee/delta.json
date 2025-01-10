@@ -1,9 +1,9 @@
 {
     "values": [
-        "mpmelee.ench:melee/venomous",
-        "mpmelee.ench:melee/overcharge",
-        "mpmelee.ench:melee/soul_harvest",
-        "mpmelee.ench:melee/fervor",
-        "mpmelee.ench:melee/echo"
+        "mpmelee.ench:venomous",
+        "mpmelee.ench:overcharge",
+        "mpmelee.ench:soul_harvest",
+        "mpmelee.ench:fervor",
+        "mpmelee.ench:echo"
     ]
 }
