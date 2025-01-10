@@ -1,7 +1,8 @@
 {
-  "anvil_cost": 4,
+  "anvil_cost": 2,
   "description": {
-    "translate": "enchantment.minecraft.impaling"
+    "translate": "enchantment.mpmelee.ench.butcher",
+    "fallback": "Butcher"
   },
   "effects": {
     "minecraft:damage": [
@@ -10,33 +11,33 @@
           "type": "minecraft:add",
           "value": {
             "type": "minecraft:linear",
-            "base": 2.5,
-            "per_level_above_first": 2.5
+            "base": 1.0,
+            "per_level_above_first": 1.0
           }
         },
         "requirements": {
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "type": "#minecraft:sensitive_to_impaling"
+            "type": "#mpmelee.ench:sensitive_to_butcher"
           }
         }
       }
     ]
   },
-  "exclusive_set": "#minecraft:exclusive_set/damage",
+  "exclusive_set": "#mpmelee.ench:exclusive/melee/beta",
   "max_cost": {
-    "base": 999,
-    "per_level_above_first": 999
+    "base": 13,
+    "per_level_above_first": 11
   },
-  "max_level": 5,
+  "max_level": 4,
   "min_cost": {
-    "base": 999,
-    "per_level_above_first": 999
+    "base": 6,
+    "per_level_above_first": 10
   },
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#mpmelee.ench:_/none",
-  "weight": 2
+  "supported_items": "#minecraft:enchantable/weapon",
+  "weight": 4
 }

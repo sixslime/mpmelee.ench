@@ -2,7 +2,7 @@
     "values": [
         "#affect:load",
         "#purec:load",
-        "#mpweapons:load",
-        "#mpweapons.ench:load"
+        "#mpmelee:load",
+        "#mpmelee.ench:load"
     ]
 }

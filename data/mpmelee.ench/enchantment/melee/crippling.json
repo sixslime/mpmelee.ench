@@ -1,0 +1,48 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "enchantment.mpmelee.ench.crippling",
+    "fallback": "Crippling"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "mpmelee.ench:_/enchantment/crippling/attacker"
+        },
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "is_direct": true
+          }
+        }
+      },
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "mpmelee.ench:_/enchantment/crippling/victim"
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#mpmelee.ench:exclusive/melee/gamma",
+  "max_cost": {
+    "base": 21,
+    "per_level_above_first": 9
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 11,
+    "per_level_above_first": 14
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/weapon",
+  "weight": 5
+}

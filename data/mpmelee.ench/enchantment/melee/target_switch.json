@@ -1,0 +1,25 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "enchantment.mpmelee.ench.target_switch",
+    "fallback": "Target Switch"
+  },
+  "effects": {
+    
+  },
+  "exclusive_set": "#mpmelee.ench:exclusive/melee/gamma",
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 9
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 15
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#mpmelee.ench:enchantable/target_switch",
+  "weight": 4
+}

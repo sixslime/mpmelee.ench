@@ -1,0 +1,11 @@
+{
+    "values": [
+        "minecraft:breach",
+        "minecraft:smite",
+        "mpmelee.ench:melee/butcher",
+        "mpmelee.ench:melee/exile",
+        "mpmelee.ench:melee/ignite",
+        "mpmelee.ench:melee/sea_bane",
+        "mpmelee.ench:melee/shatter"
+    ]
+}

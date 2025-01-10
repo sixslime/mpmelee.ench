@@ -73,6 +73,6 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#mpweapons.ench:_/none",
+  "supported_items": "#mpmelee.ench:_/none",
   "weight": 5
 }

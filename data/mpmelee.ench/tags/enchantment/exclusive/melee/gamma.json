@@ -1,0 +1,10 @@
+{
+    "values": [
+        "mpmelee.ench:melee/crippling",
+        "mpmelee.ench:melee/fleeting",
+        "mpmelee.ench:melee/target_switch",
+        "minecraft:knockback",
+        "minecraft:looting",
+        "minecraft:sweeping_edge"
+    ]
+}

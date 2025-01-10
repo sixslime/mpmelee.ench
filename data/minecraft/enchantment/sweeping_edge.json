@@ -25,7 +25,7 @@
       }
     ]
   },
-  "exclusive_set": "#mpweapons.ench:exclusive/melee/gamma",
+  "exclusive_set": "#mpmelee.ench:exclusive/melee/gamma",
   "max_cost": {
     "base": 50,
     "per_level_above_first": 9
